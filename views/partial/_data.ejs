@@ -1,0 +1,19 @@
+
+ <% for(var i=0; i<list.length ;i++) { %> 
+
+
+
+
+<tr>           
+                    
+    <th scope="row"><p>  <%= i+1 %>     </p></th>
+    <td> <p>  <%= list[i].name %>     </p></td>
+    <td><p>  <%= list[i].pass %>     </p></td>
+    <td><i class="fas fa-marker"><a href="/edit/<%= list[i]._id%>"> update</a></i></td>
+    <td><i class="fas fa-marker"><a href="/<%= list[i]._id%>"> delet</a></i></td>
+</tr>
+
+
+<% }       %>
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <%- include("./partial/_header")%>
+</head>
+
+<body>
+
+    <%- include("./partial/_line")%>
+
+        <button><a href="/">+create</a></button>
+
+
+        <h1>student list</h1>
+         
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">name</th>
+                    <th scope="col">pass</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                
+                </tr>
+               
+            </thead>
+            <tbody>
+                <%- include("./partial/_data")%>
+            </tbody>
+        </table>
+
+        
+     
+
+
+
+
+
+
+
+        <!-- <h2>  <%= list[0].name%> </h2> -->
+
+</body>
+
+</html>
